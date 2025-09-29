@@ -1,19 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const menuIcon = document.querySelector('.fa-bars');
-    const dropdownContent = document.querySelector('.dropdown-content');
-
-
-    menuIcon.addEventListener('click', function(e) {
-        dropdownContent.style.display = dropdownContent.style.display === 'flex' ? 'none' : 'flex';
-        e.stopPropagation();
-    });
-
-
-
-    dropdownContent.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', function() {
+    document.querySelector('.fa-bars').addEventListener('click', function() {
+        const dropdownContent = document.querySelector('.dropdown-content');
+        if (dropdownContent.style.display === 'flex') {
             dropdownContent.style.display = 'none';
-        });
+        } else {
+            dropdownContent.style.display = 'flex';
+        }
     });
 });
 
