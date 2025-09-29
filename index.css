@@ -160,7 +160,7 @@ main {
     }
 
     .nav-buttons {
-        display: none !important;  /* Adăugăm !important pentru a ne asigura că se aplică */
+        display: none !important; 
     }
     
     .dropdown {
