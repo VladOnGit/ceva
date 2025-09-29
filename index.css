@@ -141,6 +141,8 @@ main {
 .dropdown-content .nav-btn {
     padding: 15px 35px;
     font-size: 15px;
+    width: 200px;
+    margin: 5px auto;
 }
 
 
