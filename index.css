@@ -138,10 +138,10 @@ main {
 
 
 @media (max-width: 768px) {
-    .nav-buttons {
-        gap: 10px;
+    nav .nav-buttons {
+        display: none;
     }
-
+    
     .nav-btn {
         padding: 10px 18px;
         font-size: 13px;
@@ -158,11 +158,11 @@ main {
     main {
         padding: 80px 20px;
     }
-    
-    .nav-buttons {
-        display: none;
-    }
 
+    .nav-buttons {
+        display: none !important;  /* Adăugăm !important pentru a ne asigura că se aplică */
+    }
+    
     .dropdown {
         display: block;
     }
