@@ -159,6 +159,10 @@ main {
         padding: 80px 20px;
     }
     
+    .nav-buttons {
+        display: none;
+    }
+
     .dropdown {
         display: block;
     }
