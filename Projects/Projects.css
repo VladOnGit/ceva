@@ -19,8 +19,11 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    z-index: 1;
+    margin-top: 80px;
 }
 .card {
+    position: relative;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -32,6 +35,7 @@ body {
     padding: 5px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     background-image: linear-gradient(180deg, rgb(201, 25, 201), green);
+    z-index: 1;
 }
 
 .card__content {
